@@ -1,8 +1,10 @@
 # spendshare 
 
 ### spendshare is finance oriented web app that tells user how to manage their spendings and budget better i.e. help users to manage their finances better.
-##### Features:
-- Provides ability to the users to securely login by using their email address.
-- Provides users with the general comparison between moderated/planned finances against unmoderated/unplanned finances.
-- Users can upload their personal finance information like expenditure and budget to see the predictions for their future finances.
-- Users will maintain a streak when they save their expected amount, making the web app engaging.
+##### Model process:
+- The datasets used are available on Kaggle and were not alike fundamentally.
+- Matched the datasets then merged the datasets.
+- Did data preparation involved deletion of unwanted features, one hot encoding etc.
+- Tried many models like Random Forest Regressor, XGBregressor, Lightlbm and CatBoost regressor.
+- Tried hyperparameter tuning for a long time but was limited due to the dataset.
+- Opted to not make synthetic data and completed the process to load the model.
